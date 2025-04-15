@@ -1,0 +1,113 @@
+* {
+    margin:0px;
+    padding: 0;
+    /* border: 1px solid rgb(217, 228, 230); */
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+body{
+    background-color: rgb(196, 164, 164);
+}
+
+a{
+    color: rgb(100, 76, 76);
+}
+
+section {
+    width: 75vw;
+    display: flex;
+    gap: 5vw;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    /* background-color:rgb(230, 230, 230); */
+}
+
+.transient{
+    width: 100vw;
+    background-color:rgb(247, 247, 247);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.transient p{
+   width: 60vw;
+    font-size: 1.25rem;
+    color: rgb(100, 76, 76);
+}
+
+section p {
+    width: 20vw;
+    min-width: 15rem;
+}
+
+section img {
+    object-fit: cover;
+    max-height: 22rem;
+    border-radius: 80rem;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 2.5rem;
+    align-items: center;
+
+    min-width: 100vw;
+    min-height: 2rem;
+
+    position: sticky;
+    top: 0;
+
+    background-color: white;
+}
+
+header div{
+    color:rgb(100, 76, 76);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid rgb(26, 158, 136); */
+    gap: 7rem;
+}
+
+.banner{
+    width: 100vw;
+    height: 20rem;
+    object-fit: cover;
+
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1rem;
+
+    width: 75vw;
+    max-width: 80rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    /* border: 1px solid rgb(236, 46, 46); */
+
+    text-align: center;
+}
+
+.intro p{
+    width: 50vw;
+}
+
+.closurePic{
+    max-height: none;
+}
